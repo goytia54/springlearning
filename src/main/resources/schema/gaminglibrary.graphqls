@@ -1,0 +1,10 @@
+type Library {
+    libraryId: ID!
+    owner: Owner
+}
+
+type Owner {
+    ownerId: ID!
+    ownerEmail: String!
+    ownerUsername: String!
+}
